@@ -80,7 +80,7 @@ Exemplo em javascript:
 
     let data = {
         token: '<SEUTOKEN>',
-        metodo: "pix", //ou btc 
+        method_code: "pix", //ou btc 
         amount:5.00 
       }
 
