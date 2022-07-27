@@ -101,7 +101,8 @@ Exemplo em javascript:
     "copiaecola": "00020101021226910014br.gov.bcb.pix2569api.developer.dobank.capital\/v1\/p\/v2\/5fd4b3c59588412caeb6f8bfe1a2250f5204000053039865802BR5925Dobank Tecnologia em Paga6011So Paulo SP62070503***630439F0",
     "qrcode": "iVBORw0KGgoAAAANSUhEUgAAAPQAAAD0CAYAAACsLwv+AAAAAklEQVR4AewaftIAAA4USURBVO3BQW4sy7LgQDKh\/W+ZfYY+CiBRJd33o93M\/mGtdYWHtdY1HtZa13hYa13jYa11jYe11jUe1lrXeFhrXeNhrXWNh7XWNR7WWtd4WGtd42GtdY2HtdY1HtZa13hYa13jhw+p\/KWKN1Smik+onFRMKicVn1CZKt5QmSpOVH5TxTepTBVvqPylik88rLWu8bDWusbDWusaP3xZxTepvKEyVUwqb1ScVEwqb6icVEwqJypTxUnFpDJVnFScqEwVk8qkMlVMKlPFGypTxRsV36TyTQ9rrWs8rLWu8bDWusYPv0zljYo3VD5RMalMKicqU8WkMlWcqEwqU8WkMlWcqJxUfFPFGxUnFScqU8Wk8k0qb1T8poe11jUe1lrXeFhrXeOHy6mcqJxUTCqfUHmjYlI5UZkqpoo3VKaKN1TeUDmpeENlqphUpor\/yx7WWtd4WGtd42GtdY0fLlPxhsobFZPKpHJS8YbKVDGpnKj8JZWTikllqphUJpWTiknlpOImD2utazysta7xsNa6xg+\/rOJ\/WcWk8ptUpopJ5RMVb6hMFZPKpHJSMam8oXJScaLylyr+lzysta7xsNa6xsNa6xo\/fJnK\/xKVqWJSmSomlanipGJSmSomlaliUvmEylTxiYpJ5ZsqJpUTlaliUjlRmSpOVP6XPay1rvGw1rrGw1rrGj98qOL\/JyrfVDGpnKi8UfGGyhsVJxWTylTxhspfqvi\/5GGtdY2HtdY1HtZa1\/jhQypTxaTyTRVTxRsqU8VJxRsqU8WJyknFpHKi8omKE5U3Kr6pYlI5qZhUpooTlW+q+E0Pa61rPKy1rvGw1rrGD1+m8omKE5WpYlI5qXhD5ZtUpooTlaliUpkqTlSmikllqpgqJpWpYlKZKj6hMlWcqEwVJypTxaTyRsWkMlV808Na6xoPa61rPKy1rvHDH6uYVCaVk4pJZar4TRUnKpPKJyr+SypvqEwVk8o3qXxCZar4RMWk8pce1lrXeFhrXeNhrXWNH\/6YyhsVv0llqnhDZap4Q+WkYlJ5Q+WNiknlpOKNikllqnhDZaqYVCaVqWJSeaPipGJS+U0Pa61rPKy1rvGw1rrGD19WcaLyhspJxaTyRsU3qfymihOVT6h8QuWkYqqYVKaKSWWqmFSmijcqTlROVP5LD2utazysta7xsNa6hv3DF6m8UTGpTBVvqEwVk8pUMal8ouITKicVJypTxSdUpopJZao4UTmpmFTeqHhD5aTiEyonFd\/0sNa6xsNa6xoPa61r2D98QOUTFZPKN1V8k8pUMal8U8Wk8k0Vk8obFScqb1ScqLxRMalMFW+onFScqEwV3\/Sw1rrGw1rrGg9rrWvYP3yRyhsVb6hMFScqU8WkMlWcqEwVb6icVEwqU8WkMlVMKlPFJ1SmikllqphUpopJZao4UflNFScqU8V\/6WGtdY2HtdY1HtZa17B\/+CKVk4pJZaqYVKaKSWWqmFROKk5UpooTlZOKSeWk4g2VqWJS+UTFpDJVfJPKScWk8omKSeUTFX\/pYa11jYe11jUe1lrXsH\/4gMpUMalMFScqU8Wk8omKSeWk4n+ZylTxhspUMamcVEwqU8WkclLxhspU8QmVqWJSOak4UTmp+MTDWusaD2utazysta5h\/\/CLVE4qJpVPVEwqU8WJyhsVk8pUcaIyVUwqJxWTylQxqXyi4kTlpGJSeaPiROWkYlKZKk5UpopJZaqYVE4qPvGw1rrGw1rrGg9rrWv88Msq3qg4UfmEylRxUjGpfEJlqphUTiomlU9UvKEyVZxUTCpTxaQyVUwqv0llqpgqJpUTlZOKb3pYa13jYa11jYe11jXsHz6gclIxqZxUTCpvVJyovFHxCZWTihOVk4pJZao4UZkqJpWpYlKZKt5QOak4UZkqTlQ+UXGiMlVMKlPFNz2sta7xsNa6xsNa6xo\/fKjiExWTylQxqUwVk8pUMVWcqJyovFFxonJSMalMKm+oTBWfqJhUpopJ5Q2Vk4pJZao4qbjJw1rrGg9rrWs8rLWuYf\/wRSonFW+onFScqEwVk8pJxTepvFFxojJVTCpTxaTyRsWkMlW8oXJSMamcVHxCZaqYVKaKE5U3Kj7xsNa6xsNa6xoPa61r\/PBlFZPKicpUMVVMKicqJypTxaTymyomlROVk4qTiknlpGJSmVT+l1RMKicVf6niLz2sta7xsNa6xsNa6xr2Dx9QmSomlb9U8YbKVHGiMlW8oTJVTConFZPKX6qYVN6oOFE5qfgmld9UMalMFd\/0sNa6xsNa6xoPa61r2D\/8h1SmijdUTio+ofKbKk5U3qh4Q2WqmFSmihOVk4pJZaqYVKaKN1SmikllqnhDZap4Q2Wq+MTDWusaD2utazysta7xw5epfJPKVHFS8YbKGxWTylTxhspJxaTyhspUcaIyVUwqU8VU8UbFpPIJlW9SmSpOVP5LD2utazysta7xsNa6xg8fUpkqJpVPVLyh8k0VJxUnKm9UfFPFGxWTylRxonJSMalMFd9U8YmKNypOVH7Tw1rrGg9rrWs8rLWu8cMvqzhRmVQ+UfGGyonKScWkclJxojJVTBWTyqTyTRWfqJhUpoo3VD6hcqLyTSonFd\/0sNa6xsNa6xoPa61r\/PChihOVk4pJZaqYVD6h8omKk4o3VKaKb6o4UTlRmSpOKiaVqeINlaniDZVvqjhRmSomld\/0sNa6xsNa6xoPa61r2D98kcpfqphUpopJ5f+SijdUTireUJkqTlSmiknlL1W8oTJVvKHyRsU3Pay1rvGw1rrGw1rrGvYPf0hlqphUpopPqPymiknlpOJE5RMVk8pJxaQyVfwmlaliUpkqJpWp4kRlqphUpooTlaliUpkqftPDWusaD2utazysta7xw\/84lZOKSWWqOFE5qThRmSpOVN6oOFGZVN5QmSo+ofJGxaQyVUwqb6hMFZ9QmSomlf\/Sw1rrGg9rrWs8rLWu8cOXqZxUTConFZ9QOak4UZkqpopJZao4qZhUTlSmim9SmSpOVN6omFSmikllqviEyicqJpWp4kRlqvimh7XWNR7WWtd4WGtdw\/7hi1TeqDhRmSomld9UMalMFZPKVDGpnFR8k8pU8YbKVPEJlTcqJpWpYlKZKj6hMlWcqEwVk8pU8U0Pa61rPKy1rvGw1rrGDx9SmSomlaliUpkqpopJ5Y2KSeWbVP6SylRxUjGpnFRMFW+oTBUnFZPKScUbKlPFGxVvVLyhMlV84mGtdY2HtdY1HtZa1\/jhQxWTyidUTiomlaliUjmpeKNiUjlRmSpOVKaKb6r4hMonKiaVqWJSOal4Q+Wk4g2VqWJSOan4poe11jUe1lrXeFhrXcP+4QMqU8WkMlVMKicVb6hMFScq\/6WKE5XfVPFNKm9UTConFd+kMlVMKicVk8pUMamcVHziYa11jYe11jUe1lrXsH\/4RSpTxYnKf6niN6m8UfEJlaniROWNiknlExWTyhsVk8pUMamcVHyTyknFJx7WWtd4WGtd42GtdY0fPqQyVUwVJypTxYnKGxUnKn+pYlKZKk5UTipOVKaKb6o4UZkqJpWTihOVE5Wp4kTljYqTiknlmx7WWtd4WGtd42GtdY0ffpnKScWJyknFN6n8poqpYlKZKqaKT1RMKicVn1CZKiaVqeINlaniDZWTihOVSWWqmFSmim96WGtd42GtdY2HtdY1fvhjFW9UvKHyiYo3VE4q3qh4Q+UNlZOKE5U3KiaVqeITFZ+omFROVKaKSeWkYlKZKj7xsNa6xsNa6xoPa61r\/PBlKlPFpPKbKiaVk4pJ5RMVk8obFScqJxWfUJkqpopJZaqYVE5UpooTlTcqTlSmim9S+UsPa61rPKy1rvGw1rqG\/cMXqZxU\/CaVqeITKlPFpHJSMal8ouINlZOKN1ROKt5QmSomlZOKSeWk4kRlqphU3qj4Sw9rrWs8rLWu8bDWuob9wx9SmSpOVH5TxaQyVUwqU8WkMlV8QmWqmFS+qWJSmSreUJkqTlTeqHhD5S9VTConFZ94WGtd42GtdY2HtdY1fvhjFW9UnKi8UTGpTBW\/SWWqeEPlpOINlW9SeUNlqjhRmVSmik9UvKHyRsWk8k0Pa61rPKy1rvGw1rrGDx9S+UsVU8WkMlVMKlPFpHJSMal8QmWqOKmYVE5Upoo3Kk5UpopJ5aRiUpkqTipOVKaKSeVEZao4qThRmSq+6WGtdY2HtdY1HtZa1\/jhyyq+SeVEZao4qZhUpopJ5Y2KSeWkYlL5poo3VE4qpopJ5URlqnij4i9VfFPFpDJVfOJhrXWNh7XWNR7WWtf44ZepvFHxTSpTxRsVk8o3qUwVk8obKr9J5Y2KSeWkYlKZKiaVb1L5TSq\/6WGtdY2HtdY1HtZa1\/jhMipvVHyi4qTiRGVSmSomlU9UTCpTxaQyVbyhMlW8UTGpTBUnKm9UfJPKScU3Pay1rvGw1rrGw1rrGj9cruJEZaqYVKaKSeWkYlJ5Q2WqmFTeUPkmlaliqphU3qg4UTmpmFSmiknljYqTiknlNz2sta7xsNa6xsNa6xo\/\/LKK31QxqXxCZaqYVKaKSWVSOamYVN6o+EsqU8U3VUwqU8WkMlVMKicqU8WkcqIyVZxU\/KaHtdY1HtZa13hYa13jhy9T+Usqv0nlRGWqmFSmipOKSWVS+aaKSeWk4kTlpOJEZaqYVD5RMam8UXGi8kbFNz2sta7xsNa6xsNa6xr2D2utKzysta7xsNa6xsNa6xoPa61rPKy1rvGw1rrGw1rrGg9rrWs8rLWu8bDWusbDWusaD2utazysta7xsNa6xsNa6xr\/D8Gh2lCeYYCOAAAAAElFTkSuQmCC",
     "valorcobrado": 2.52,
-    "valor": "2.00000000"
+    "valor": "2.00000000",
+    "pix_end2end_id": "E22896431202204020232HQeZHKL64SD"
     }
 
 Observações:
@@ -116,6 +117,8 @@ A moeda do "valorcobrado" muda de acordo como método  de recebimento. Se o met�
 Se o  método é "btc", é o valor exato a ser transferido em BTC (bitcoin). 
 
 O "valor" é o valor a ser creditado.
+
+O "pix_end2end_id" é identificador do Banco Central para a transação pix específica
 
 
 
@@ -253,14 +256,16 @@ Exemplo de retorno:
             "method_code": "pix",
             "amount": "1.00000000",
             "amount_charged": "1.51200000",
-            "status": "Aguardando Recebimento"
+            "status": "Aguardando Recebimento",
+            "pix_end2end_id": "E22896431202204020232HQeZHKL64SD"
         },
         {
             "trxid": "SR4SHNC9B8D9",
             "method_code": "pix",
             "amount": "2.00000000",
             "amount_charged": "2.52400000",
-            "status": "Aguardando Recebimento"
+            "status": "Aguardando Recebimento",
+            "pix_end2end_id": "E22896431202204020232HQeZHKL64SD"
         }
     ]
 
@@ -355,7 +360,8 @@ Exemplo de retorno de recebimento específico:
             "method_code": "pix",
             "amount": "1.00000000",
             "amount_charged": "1.51200000",
-            "status": "Aguardando Recebimento"
+            "status": "Aguardando Recebimento",
+            "pix_end2end_id": "E22896431202204020232HQeZHKL64SD"
         }
     ]
 
@@ -385,7 +391,8 @@ O webhook receberá uma mensagem no mesmo formato da consulta individual:
                 "method_code": "pix",
                 "amount": "1.00000000",
                 "amount_charged": "1.51200000",
-                "status": "Recebido"
+                "status": "Recebido",
+                "pix_end2end_id": "E22896431202204020232HQeZHKL64SD"
             }
         ]
 
