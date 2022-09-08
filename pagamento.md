@@ -25,25 +25,55 @@ Exemplo em python
 
 Exemplo em python com um tipo de cada pagamento 
 
-import json
-import requests
-url = 'https://dev.dobank.capital/api/'
-endpoint = 'pagamento'
+	import json
+	import requests
+	url = 'https://dev.dobank.capital/api/'
+	endpoint = 'pagamento'
 
-token = '<SEUTOKEN>'
-valor = 1.00 # R$ 1,00
-
-
-payload = {
-
-	"token": token,
-	"beneficiaries": [{
-		"amount": 1.00,
-		"pix_key_type": "CPF",
-		"pix_key": "012345678901"
-	}]
+	token = '<SEUTOKEN>'
+	valor = 1.00 # R$ 1,00
 
 
+	payload = {
+
+			"token": token,
+			"beneficiaries": [
+	      # Exemplo PIX
+	      {
+				"amount": 1.00,
+				"pix_key_type": "CPF", # [EMAIL, CPF, CNPJ , TELEFONE , CHAVE_ALEATORIA]
+				"pix_key": "012345678901"
+			  }
+	      ,
+	      # Exemplo DOBANK
+	      {
+	      "amount": 1.00,
+				"pix_key_type": "DOBANK",
+				"pix_key": "001DB24555A7474"
+	      },
+	      # Exemplo DADOS_BANCARIOS
+	      {
+	      "amount": 1.00,
+				"pix_key_type": "DADOS_BANCARIOS",
+				"pix_key": "00000000000", # CPF/CNPJ do beneficiário
+	      "bank_code": "001", # Código do banco
+	      "agency": "0001", # Código da agência
+	      "account_number": "0000", # Número da conta
+	      "account_digit": "0", # Dígito da conta
+	      "account_type": "CONTA_CORRENTE", # Tipo da conta (CONTA_CORRENTE, CONTA_POUPANCA, CONTA_PAGAMENTO , CONTA_FACIL , ENTIDADES_PUBLICAS)
+	      "name": "Nome do beneficiário", # Nome do beneficiário
+
+	      }
+	    ]
+
+	}
+	r = requests.post(api_url+endpoint, json=payload)
+	print(r.status_code,r.content)
+	try:
+	    info = r.json()
+	    print(info)
+	except Exception as e:
+	    print(f"Error {e}")
 
 
 
