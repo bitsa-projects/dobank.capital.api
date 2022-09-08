@@ -69,4 +69,47 @@ Retorno da api em json
 			"amount": "1.00"
 		}
 	}]
-}
+	}
+	
+retorno da api com um exemplo de cada tipo:
+	
+	{
+	"payer": {
+		"name": "Alexandre",
+		"email": "alexandremasbr@gmail.com",
+		"cpf_cnpj": null,
+		"amount": "1.00",
+		"charge": null,
+		"final_amount": "1.00",
+		"current_balance": "3.09"
+	},
+	"beneficiaries": [{
+		"beneficiary": {
+			"account_name": "Alexandre Miguel de Andrade Souza",
+			"pix_key_type": "CPF",
+			"pix_key": "42137276291",
+			"account_number": null,
+			"bank_code": null,
+			"amount": "1.00"
+		}
+	}, {
+		"beneficiary": {
+			"account_name": "Alexandre Miguel de Andrade Souza",
+			"pix_key_type": "DADOS_BANCARIOS",
+			"pix_key": "0",
+			"account_number": "12743",
+			"bank_code": 1,
+			"amount": "1.00"
+		}
+	}, {
+		"beneficiary": {
+			"account_name": null,
+			"pix_key_type": "DOBANK",
+			"pix_key": "0001DB222241406010",
+			"account_number": null,
+			"bank_code": null,
+			"amount": "1.00"
+		}
+	}]
+	}
+	
