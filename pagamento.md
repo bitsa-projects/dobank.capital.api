@@ -40,29 +40,28 @@ Exemplo em python com um tipo de cada pagamento
 			"beneficiaries": [
 	      # Exemplo PIX
 	      {
-				"amount": 1.00,
-				"pix_key_type": "CPF", # [EMAIL, CPF, CNPJ , TELEFONE , CHAVE_ALEATORIA]
-				"pix_key": "012345678901"
-			  }
+		"amount": 1.00,
+		"pix_key_type": "CPF", # [EMAIL, CPF, CNPJ , TELEFONE , CHAVE_ALEATORIA]
+		"pix_key": "012345678901"
+	      }
 	      ,
 	      # Exemplo DOBANK
 	      {
-	      "amount": 1.00,
-				"pix_key_type": "DOBANK",
-				"pix_key": "001DB24555A7474"
+		  "amount": 1.00,
+	          "pix_key_type": "DOBANK", #Transferência de Dobank para Dobank
+		  "pix_key": "001DB24555A7474" # Numero da conta do recebedor Dobank
 	      },
 	      # Exemplo DADOS_BANCARIOS
 	      {
-	      "amount": 1.00,
-				"pix_key_type": "DADOS_BANCARIOS",
-				"pix_key": "00000000000", # CPF/CNPJ do beneficiário
-	      "bank_code": "001", # Código do banco
-	      "agency": "0001", # Código da agência
-	      "account_number": "0000", # Número da conta
-	      "account_digit": "0", # Dígito da conta
-	      "account_type": "CONTA_CORRENTE", # Tipo da conta (CONTA_CORRENTE, CONTA_POUPANCA, CONTA_PAGAMENTO , CONTA_FACIL , ENTIDADES_PUBLICAS)
-	      "name": "Nome do beneficiário", # Nome do beneficiário
-
+		"amount": 1.00,
+		"pix_key_type": "DADOS_BANCARIOS",
+		"pix_key": "00000000000", # CPF/CNPJ do beneficiário
+		"bank_code": "001", # Código do banco
+		"agency": "0001", # Código da agência
+		"account_number": "0000", # Número da conta
+		"account_digit": "0", # Dígito da conta
+		"account_type": "CONTA_CORRENTE", # Tipo da conta (CONTA_CORRENTE, CONTA_POUPANCA, CONTA_PAGAMENTO , CONTA_FACIL , ENTIDADES_PUBLICAS)
+		"name": "Nome do beneficiário", # Nome do beneficiário
 	      }
 	    ]
 
@@ -82,7 +81,7 @@ Retorno da api em json
         {
 	"payer": {
 		"name": "José da Couves",
-		"email": "inventado@gmail.com",
+		"email": "inventado@mail.com",
 		"cpf_cnpj": null,
 		"amount": "1.00",
 		"charge": null,
@@ -105,17 +104,17 @@ retorno da api com um exemplo de cada tipo:
 	
 	{
 	"payer": {
-		"name": "Alexandre",
-		"email": "alexandremasbr@gmail.com",
+		"name": "João da Silva",
+		"email": "joaodasilva@mail.com",
 		"cpf_cnpj": null,
 		"amount": "1.00",
 		"charge": null,
 		"final_amount": "1.00",
-		"current_balance": "3.09"
+		"current_balance": "330.09"
 	},
 	"beneficiaries": [{
 		"beneficiary": {
-			"account_name": "Alexandre Miguel de Andrade Souza",
+			"account_name": "Jose das Couves",
 			"pix_key_type": "CPF",
 			"pix_key": "42137276291",
 			"account_number": null,
@@ -124,10 +123,10 @@ retorno da api com um exemplo de cada tipo:
 		}
 	}, {
 		"beneficiary": {
-			"account_name": "Alexandre Miguel de Andrade Souza",
+			"account_name": "Maria das Couves",
 			"pix_key_type": "DADOS_BANCARIOS",
 			"pix_key": "0",
-			"account_number": "12743",
+			"account_number": "01234",
 			"bank_code": 1,
 			"amount": "1.00"
 		}
@@ -135,7 +134,7 @@ retorno da api com um exemplo de cada tipo:
 		"beneficiary": {
 			"account_name": null,
 			"pix_key_type": "DOBANK",
-			"pix_key": "0001DB222241406010",
+			"pix_key": "0001DB2222414474",
 			"account_number": null,
 			"bank_code": null,
 			"amount": "1.00"
