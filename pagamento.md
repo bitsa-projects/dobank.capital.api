@@ -144,3 +144,7 @@ retorno da api com um exemplo de cada tipo:
 	}]
 	}
 	
+OBSERVAÇÃO:
+A api rejeitará os lotes e pagamentos com ids já enviados. 
+
+
