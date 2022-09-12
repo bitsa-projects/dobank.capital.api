@@ -37,9 +37,11 @@ Exemplo em python com um tipo de cada pagamento
 	payload = {
 
 			"token": token,
+			"lote": 1, #obrigatorio, seu número de controle
 			"beneficiaries": [
 	      # Exemplo PIX
 	      {
+	        "integration_id": 1, # seu número de controle de cada pagamento
 		"amount": 1.00,
 		"pix_key_type": "CPF", # [EMAIL, CPF, CNPJ , TELEFONE , CHAVE_ALEATORIA]
 		"pix_key": "012345678901"
@@ -47,12 +49,14 @@ Exemplo em python com um tipo de cada pagamento
 	      ,
 	      # Exemplo DOBANK
 	      {
+	          "integration_id": 2, # seu número de controle de cada pagamento
 		  "amount": 1.00,
 	          "pix_key_type": "DOBANK", #Transferência de Dobank para Dobank
 		  "pix_key": "001DB24555A7474" # Numero da conta do recebedor Dobank
 	      },
 	      # Exemplo DADOS_BANCARIOS
 	      {
+	      	"integration_id": 3, # seu número de controle de cada pagamento
 		"amount": 1.00,
 		"pix_key_type": "DADOS_BANCARIOS",
 		"pix_key": "00000000000", # CPF/CNPJ do beneficiário
@@ -76,29 +80,7 @@ Exemplo em python com um tipo de cada pagamento
 
 
 
-Retorno da api em json
 
-        {
-	"payer": {
-		"name": "José da Couves",
-		"email": "inventado@mail.com",
-		"cpf_cnpj": null,
-		"amount": "1.00",
-		"charge": null,
-		"final_amount": "1.00",
-		"current_balance": "5.09"
-	},
-	"beneficiaries": [{
-		"beneficiary": {
-			"account_name": "Maria das Couves",
-			"pix_key_type": "CPF",
-			"pix_key": "012345678901",
-			"account_number": null,
-			"bank_code": null,
-			"amount": "1.00"
-		}
-	}]
-	}
 	
 retorno da api com um exemplo de cada tipo:
 	
@@ -113,32 +95,52 @@ retorno da api com um exemplo de cada tipo:
 		"current_balance": "330.09"
 	},
 	"beneficiaries": [{
+	     {
+            "integration_id": 1,
+            "trx": "F6YZ5M4CCMAC",
+            "name": "José da Silveira",
+            "pix_key_type": "CPF",
+            "pix_key": "0000000000",
+            "account_number": null,
+            "bank_code": null,
+            "agency": null,
+            "amount": "1.00",
+            "status": "APROVADO",
+            "lote_original": 1,
+            "created_at": "2022-09-11T22:14:30.000000Z",
+            "updated_at": "2022-09-11T22:14:30.000000Z"
+        }
+	,{
 		"beneficiary": {
-			"account_name": "Jose das Couves",
-			"pix_key_type": "CPF",
-			"pix_key": "42137276291",
-			"account_number": null,
-			"bank_code": null,
-			"amount": "1.00"
+            "integration_id": 2,
+            "trx": "F6YZ5M4CCMAC",
+            "name": null,
+            "pix_key_type": "DOBANK",
+            "pix_key": "001CC22145058457579",
+            "account_number": null,
+            "bank_code": null,
+            "agency": null,
+            "amount": "1.00",
+            "status": "APROVADO",
+            "lote_original": 1,
+            "created_at": "2022-09-11T22:14:30.000000Z",
+            "updated_at": "2022-09-11T22:14:30.000000Z"
 		}
-	}, {
-		"beneficiary": {
-			"account_name": "Maria das Couves",
-			"pix_key_type": "DADOS_BANCARIOS",
-			"pix_key": "0",
-			"account_number": "01234",
-			"bank_code": 1,
-			"amount": "1.00"
-		}
-	}, {
-		"beneficiary": {
-			"account_name": null,
-			"pix_key_type": "DOBANK",
-			"pix_key": "0001DB2222414474",
-			"account_number": null,
-			"bank_code": null,
-			"amount": "1.00"
-		}
+	},      {
+            "integration_id": 3,
+            "trx": "F6YZ5M4CCMAC",
+            "name": null,
+            "pix_key_type": "DADOS_BANCARIOS",
+            "pix_key": "001CC22145058457579",
+            "account_number": 12345,
+            "bank_code": 1,
+            "agency": 1,
+            "amount": "1.00",
+            "status": "APROVADO",
+            "lote_original": 1,
+            "created_at": "2022-09-11T22:14:30.000000Z",
+            "updated_at": "2022-09-11T22:14:30.000000Z"
+        }
 	}]
 	}
 	
