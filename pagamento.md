@@ -148,3 +148,101 @@ OBSERVAÇÃO:
 A api rejeitará os lotes e pagamentos com ids já enviados. 
 
 
+## consulta de Lotes
+
+é possível consultar os pagamentos 1) por número de dias 2) por trxid e 3) por lote
+
+1) exemplo em python de consulta por número de dias
+
+	import json
+	import requests
+	import os
+	from dotenv import load_dotenv
+
+	load_dotenv()
+
+	api_url = 'https://dobank.com.br/api'
+	endpoint = 'pagamentos'
+	token = '<SEUTOKEN>"
+
+	payload = {
+	  "token": token,
+	  # "lote": "3",
+	  # "trxid": "8EZSC1J3G65U",
+	  "days": "30",
+	}
+	url = f'{api_url}{endpoint}'
+	print(url,payload)
+	r = requests.post(api_url+endpoint, data=payload)
+
+	try:
+	    info = r.json()
+	    print(info)
+	except Exception as e:
+	    print(r.status_code,r.content)
+	    print(f"Error {e}")
+
+2) Consulta em python por transação
+	
+		import json
+	import requests
+	import os
+	from dotenv import load_dotenv
+
+	load_dotenv()
+
+	api_url = 'https://dobank.com.br/api'
+	endpoint = 'pagamentos'
+	token = '<SEUTOKEN>"
+
+	payload = {
+	  "token": token,
+	  #"lote": "3",
+	  "trxid": "8EZSC1J3G65U",
+	  #"days": "30",
+	}
+	url = f'{api_url}{endpoint}'
+	print(url,payload)
+	r = requests.post(api_url+endpoint, data=payload)
+
+	try:
+	    info = r.json()
+	    print(info)
+	except Exception as e:
+	    print(r.status_code,r.content)
+	    print(f"Error {e}")
+
+
+3) Consulta em python por lote
+	
+		import json
+	import requests
+	import os
+	from dotenv import load_dotenv
+
+	load_dotenv()
+
+	api_url = 'https://dobank.com.br/api'
+	endpoint = 'pagamentos'
+	token = '<SEUTOKEN>"
+
+	payload = {
+	  "token": token,
+	  "lote": "3",
+	  # "trxid": "8EZSC1J3G65U",
+	  #"days": "30",
+	}
+	url = f'{api_url}{endpoint}'
+	print(url,payload)
+	r = requests.post(api_url+endpoint, data=payload)
+
+	try:
+	    info = r.json()
+	    print(info)
+	except Exception as e:
+	    print(r.status_code,r.content)
+	    print(f"Error {e}")
+
+
+	
+	
