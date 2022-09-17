@@ -184,7 +184,8 @@ A api rejeitará os lotes e pagamentos com ids já enviados.
 
 2) Consulta em python por transação
 	
-		import json
+	
+	import json
 	import requests
 	import os
 	from dotenv import load_dotenv
@@ -215,7 +216,8 @@ A api rejeitará os lotes e pagamentos com ids já enviados.
 
 3) Consulta em python por lote
 	
-		import json
+	
+	import json
 	import requests
 	import os
 	from dotenv import load_dotenv
