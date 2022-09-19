@@ -182,6 +182,7 @@ A api rejeitará os lotes e pagamentos com ids já enviados.
 	    print(r.status_code,r.content)
 	    print(f"Error {e}")
 
+	
 2) Consulta em python por transação
 	
 	
